@@ -1,0 +1,6 @@
+.logo-circulo {
+    width:  65px; /* Ajusta el tamaño según sea necesario */
+    height: 65px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    object-fit: cover;
+}
