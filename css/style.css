@@ -4,3 +4,24 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+#Cover {
+    max-height: 850px;
+}
+
+/* Ajustar las flechas de navegación del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    height: auto;
+    top: 50%;
+    margin-top: -20px; /* Ajusta este valor según la altura de tus controles */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Asegurar que todas las imágenes del carrusel tengan el mismo tamaño */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
