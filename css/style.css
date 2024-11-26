@@ -20,21 +20,42 @@
     z-index: 1;
 }
 
-/* Asegurar que todas las imágenes del carrusel tengan el mismo tamaño */
 .carousel-item img {
     width: 100%;
     height: auto;
 }
-/* Asegurar que todas las tarjetas tengan el mismo tamaño y sean más grandes */
 .card {
     width: 18rem; /* Ajusta el ancho según sea necesario */
     height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
 }
 
-/* Asegurar que todas las imágenes de las tarjetas tengan el mismo tamaño y se recorten desde abajo */
 .card-img-top {
     width: 100%;
     height: 250px; /* Ajusta la altura según sea necesario */
     object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
     object-position: top; /* Recorta la imagen desde la parte inferior */
+}
+#history {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    padding: 3rem 0; /* Espaciado vertical */
+}
+
+#history h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#history p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+#history h3 {
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+}
+
+#history p {
+    font-size: 1rem;
+    line-height: 1.5;
 }
